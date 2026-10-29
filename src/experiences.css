@@ -1,0 +1,18 @@
+.container{
+    background-color: rgba(136, 188, 159, 0.546);
+    border-radius: 25px;
+    width: 600px;
+    padding: 5px;
+    margin-left: 40%;
+    margin-top: 10px;
+ border: 3px solid;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.container:hover{
+    transform: translateY(-5px);
+  box-shadow: 8px 12px 20px rgba(28, 121, 86, 0.4);
+}
+
+p{
+    margin-left: 10px;
+}
